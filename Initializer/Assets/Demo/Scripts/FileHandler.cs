@@ -8,7 +8,7 @@ namespace Demo
 {
     /// <summary>
     /// A simple class for saving data to a JSON file on disk.
-    /// NOTE: Change Application.dataPath to Application.persistentDataPath in GetSavePath() if you want to use this outside editor.
+    /// NOTE: Change Application.dataPath to Application.persistentDataPath in GetFolderPath() if you want to use this on Android for example.
     /// </summary>
     public static class FileHandler
     {

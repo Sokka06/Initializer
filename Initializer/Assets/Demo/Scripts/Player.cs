@@ -51,7 +51,7 @@ namespace Demo
             
             if (touch != null)
             {
-                if (touch.IsPressed())
+                if (touch.press.wasPressedThisFrame)
                 {
                     ConfettiController.LaunchConfetti();
                 }
